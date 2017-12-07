@@ -361,7 +361,7 @@ ul.no-bullets {
   left: 0;
   padding: 0;
   opacity: 0;
-  box-shadow: 0 0 0 3px #E2E1E1;
+  box-shadow: 0 0 0 3px #B9A125;
   transition: all .2s ease-in-out; 
 }
 .contact-icons-list li:hover {
@@ -373,7 +373,7 @@ ul.no-bullets {
   transition-timing-function: cubic-bezier(0.3, 0.7, 0.1, 1.6); 
 }
 .contact-icons-list li:hover .icon-font {
-  color: #B9A125; 
+  color: #E2E1E1; 
 }
 
 .icon-font {
