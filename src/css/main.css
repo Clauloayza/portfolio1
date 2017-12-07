@@ -1,0 +1,416 @@
+.header {
+  background-image: url('../Img/portada1.jpg');
+  background-position: 100%;
+  width: 100%;
+  height: 650px;
+  background-attachment: fixed;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-position-y: -130px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.header .name {
+  font-weight: 800;
+  font-size: 3em;
+  padding-top: 27%;
+  padding-bottom: 1%;
+  color: #F7FF82;
+  font-family: cursive;
+  text-transform: uppercase;
+}
+
+.header .title {
+  font-family: cursive;
+  color: #D4A60E;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 62px;
+  width: 277px;
+  height: 62px;
+  margin: 0 auto;
+  padding: 0;
+  text-transform: uppercase;
+  background-size: contain;
+  clear: both;
+  min-width: 200px;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  background-color: transparent;
+}
+
+#about{
+  height: auto;
+}
+
+#about .text-vertical{
+  width:5px;
+  word-wrap: break-word;
+  text-align:center;
+  font-weight: bold;
+  font-size: 13px;
+  color: #3B3B3B;
+}
+#about .aboutme{
+  margin-left: 50px;
+  font-weight: 800;
+  font-size: 44px;
+  color: #F7FF82;
+  
+}
+#about .me{
+  color: #746F6F;
+}
+#about .title {
+    text-transform: uppercase;
+    letter-spacing: 3px; }
+#about .perfil2 {
+    padding-left:15%; 
+    width: 100%;
+    height: 510px;
+}
+
+#about a {
+  color: #F7FF82; 
+}
+#about a:hover{
+  color: #746F6F;
+}
+
+#about .title {
+  text-transform: uppercase;
+  letter-spacing: 3px; 
+}
+#about .description {
+  padding-right: 0%;
+  padding: 5%;
+  text-orientation: justify; 
+}
+#about .icons {
+  margin-right: 20px;
+  font-size: 1.2em; 
+} 
+.skills{
+  width: 100%;
+  background: #E4E4D8;
+}
+.skills .titleSkills{
+  color: #fff;
+}
+.skills .ability-title{
+  color: #444343;
+  font-weight: 800;
+}
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 150px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  color: #F7FF82;
+  font-weight: 500;
+ }
+
+ .skills .fa-circle{
+   margin-right: 2px;
+   color: #EBF876;
+ }
+ul > li {
+  min-height: 30px;
+  padding: 3px 0; 
+}
+.skills .skillsImg{
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+  margin-top: 15%;
+}
+.skills .myskills{
+  margin-left: 100px;
+  font-weight: 800;
+  font-size: 50px;
+  padding-top: 50px;
+  color: #E3F731;
+}
+.skills .skillsmatch{
+  color: #746F6F;
+}
+.skills .text-vertical{
+  width:5px;
+  word-wrap: break-word;
+  text-align:center;
+  font-weight: bold;
+  font-size: 13px;
+  margin-right: 40px;
+  float: right;
+  margin-top: 10%;
+  color: #FCFCFC;
+}
+.abilities ul > li .ability-title {
+  display: inline-block;
+  width: 60%; }
+
+.ability-score {
+  float: right;
+  color: #AAAAA5;
+  font-size: 14px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s; }
+
+
+.titleSkills {
+  text-transform: uppercase;
+  letter-spacing: 3px !important;
+  padding-top: 10%;
+  z-index: 2; }
+
+
+ul.no-bullets {
+    padding: 68px; 
+} 
+.portfolioImg {
+  width: 60%;
+  height: 150px !important;
+  -webkit-filter: grayscale(1);
+  filter: gray; }
+.projects{
+  height: auto;
+}
+.projects .portfolioimages{
+  margin-left: 15%;
+  font-weight: 800;
+  font-size: 44px;
+  color: #F7FF82;
+  
+}
+
+.projects h1{
+  text-transform: uppercase;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+.projects h3{
+  color: #9C9C8B;
+  font-weight: 800;
+  margin-left: 20%;
+}
+.projects .italic{
+  font-family: cursive;
+  margin-left: 20%;
+}
+.projects .me{
+  color: #746F6F;
+}
+.projects img{
+  height:auto;
+  width: 100%;
+  margin-top: 10%;
+  margin-left: 15%;
+  text-align: center;
+}
+.projects .portafolioMap img:after{
+  content: 'Revisame!';
+  height:auto;
+  width: 100%;
+  margin-top: 10%;
+  line-height: 80px;
+  border-radius: 50%;
+  text-decoration: inherit;
+  box-shadow: 0 0 0 3px #E2E1E1;
+  transition: all .2s ease-in-out; 
+}
+
+.projects .portafolioMap img {
+  position: relative;
+  overflow: hidden;
+  margin: 6% 6%;
+  min-width: 230px;
+  max-width: 315px;
+  max-height: 220px;
+  width: 100%;
+  color: #222222;
+  text-align: right;
+  font-size: 16px;
+  background-color: transparent; }
+
+.projects .portafolioMap a:before {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-70%);
+    transform: translateY(-70%);
+    right: 100%;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 20px 20px 0;
+    border-color: transparent #F7FF82 transparent transparent; 
+  }
+  
+  .portafolioMap img:hover {
+    zoom: 1;
+    content: "REVISAME";
+    filter: alpha(opacity=50);
+    -webkit-opacity: 0.5;
+    opacity: 0.5;
+    transform: scale(1.2);
+    transition-timing-function: cubic-bezier(0.3, 0.7, 0.1, 1.6);
+      
+  }
+  .portafolioMap a:hover {
+    background:#F7FF82; 
+  }
+  
+  .projects .portafolioMap img {
+  list-style-type: none;
+  text-align: center;
+}
+.projects .portafolioMap img {
+  background-color: #F7FF82;
+  transition: all .2s ease-in-out; 
+}
+.projects .portafolioMap img {
+  box-shadow: 0 0 0 3px #E2E1E1;
+  transition: all .2s ease-in-out; 
+}
+.projects .portafolioMap img:hover {
+  background-color: #F7FF82; 
+}
+.projects .portafolioMap img:hover:after {
+  opacity: 1;
+  transform: scale(1.2);
+  transition-timing-function: cubic-bezier(0.3, 0.7, 0.1, 1.6); 
+}
+.contact-icons-list li:hover .icon-font {
+  color: #ffe042; 
+}
+.form-control {
+    display: block;
+    width: 90%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+.formContact {
+  padding-top: 20px;
+  width: 100%;
+ }
+.contact .formContact{
+  margin-left: 5%;
+} 
+.titleContact {
+  padding-top: 180px;}
+
+#contact {
+  width: 100%;
+  overflow: hidden; }
+
+.contact-header {
+  color: #eee;
+  padding-top: 50px;
+  padding-bottom: 20px; }
+
+.contact-wrapper {
+  margin: 0 auto;
+  width: 100%; }
+
+.contact-icons-list {
+  position: relative;
+  list-style-type: none;
+  text-align: center;
+  font-size: 30px; 
+}
+.contact-icons-list li {
+  position: relative;
+  left: -13px;
+  display: inline-block;
+  margin: 20px 15px;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  background-color: #F7FF82;
+  transition: all .2s ease-in-out; 
+}
+.contact-icons-list li:after {
+  content: '';
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  opacity: 0;
+  box-shadow: 0 0 0 3px #E2E1E1;
+  transition: all .2s ease-in-out; 
+}
+.contact-icons-list li:hover {
+  background-color: #D1C8C8; 
+}
+.contact-icons-list li:hover:after {
+  opacity: 1;
+  transform: scale(1.2);
+  transition-timing-function: cubic-bezier(0.3, 0.7, 0.1, 1.6); 
+}
+.contact-icons-list li:hover .icon-font {
+  color: #B9A125; 
+}
+
+.icon-font {
+  color: #222222;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  position: relative;
+  z-index: 1;
+  border-radius: 50%; 
+}
+.contact .formContact button{
+  font-family: "Dosis", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  line-height: 62px;
+  width: 277px;
+  height: 62px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  background-size: contain;
+  clear: both;
+  min-width: 200px;
+  text-decoration: none;
+  border: 0;
+  color: #222222;
+  background-color: transparent;
+  cursor: pointer; 
+  position: relative;
+  left: -13px;
+  display: inline-block;
+  margin: 20px 15px;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  background-color: #E1E2C8;
+  transition: all .2s ease-in-out; 
+  border-radius: 1000%;
+  margin-bottom: 7%;
+}
