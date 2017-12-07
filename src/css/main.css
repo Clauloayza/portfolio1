@@ -115,9 +115,9 @@ ul.no-bullets {
   font-weight: 500;
  }
 
- .skills .fa-circle{
-   margin-right: 2px;
-   color: #EBF876;
+.skills .fa-circle{
+  margin-right: 2px;
+  color: #EBF876;
  }
 ul > li {
   min-height: 30px;
@@ -127,7 +127,7 @@ ul > li {
   width: 100%;
   height: auto;
   opacity: 0.6;
-  margin-top: 15%;
+  margin: 7%;
 }
 .skills .myskills{
   margin-left: 100px;

@@ -21,7 +21,7 @@ export const Contact = ({title}) => {
             <Row className="contact">
                 <div className="photoSmile"></div>
                 <Col md={12} sm={12} lg={12} xs={12}>
-                    <h1 className="titleContact text-center text-capitalize">Contactame</h1>
+                    <h1 className="titleContact text-center text-capitalize">Contáctame</h1>
                 </Col>
                 <Col md={12} sm={12} xs={12} lg={12}>
                     <form className="formContact">
