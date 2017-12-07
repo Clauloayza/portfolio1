@@ -347,7 +347,7 @@ ul.no-bullets {
   height: 80px;
   width: 80px;
   line-height: 80px;
-  background-color: #F7FF82;
+  background-color: #E2E1E1;
   transition: all .2s ease-in-out; 
 }
 .contact-icons-list li:after {
@@ -361,11 +361,11 @@ ul.no-bullets {
   left: 0;
   padding: 0;
   opacity: 0;
-  box-shadow: 0 0 0 3px #E2E1E1;
+  box-shadow: 0 0 0 3px #F7FF82;
   transition: all .2s ease-in-out; 
 }
 .contact-icons-list li:hover {
-  background-color: #D1C8C8; 
+  background-color: #E1FF5E; 
 }
 .contact-icons-list li:hover:after {
   opacity: 1;
@@ -413,4 +413,7 @@ ul.no-bullets {
   transition: all .2s ease-in-out; 
   border-radius: 1000%;
   margin-bottom: 7%;
+}
+.contact .formContact button:hover{
+  background: #E1FF5E;
 }
