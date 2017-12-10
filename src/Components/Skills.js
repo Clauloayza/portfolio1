@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Col, Grid, Row, Image} from 'react-bootstrap';
-import skills from '../Img/skills.jpg';
+import skills from '../Img/herramientas.jpg';
 import '../css/main.css';
 
 export const Skills = () => {
