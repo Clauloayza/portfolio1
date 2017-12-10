@@ -21,7 +21,7 @@
 .header .name {
   font-weight: 800;
   font-size: 3em;
-  padding-top: 27%;
+  padding-top: 20%;
   padding-bottom: 1%;
   color: #F7FF82;
   font-family: cursive;
@@ -52,14 +52,6 @@
   height: auto;
 }
 
-#about .text-vertical{
-  width:5px;
-  word-wrap: break-word;
-  text-align:center;
-  font-weight: bold;
-  font-size: 13px;
-  color: #3B3B3B;
-}
 #about .aboutme{
   margin-left: 50px;
   font-weight: 800;
@@ -75,7 +67,7 @@
     letter-spacing: 3px; }
 #about .perfil2 {
     padding-left:15%; 
-    width: 77%;
+    width: 100%;
     height: auto;
 }
 
@@ -95,6 +87,7 @@
   padding-right: 10%;
   padding: 5%;
   text-orientation: justify; 
+  font-size: 19px;
 }
 #about .icons {
   margin-right: 20px;
@@ -118,13 +111,14 @@ ul.no-bullets {
   padding: 150px;
   padding-top: 50px;
   padding-bottom: 100px;
-  color: #F7FF82;
-  font-weight: 500;
+  color: #F6FF41;
+  font-weight: 300;
+  font-family: cursive;
  }
 
 .skills .fa-circle{
-  margin-right: 2px;
-  color: #EBF876;
+  margin-right: 3px;
+  color: #ECFF41;
  }
 ul > li {
   min-height: 30px;

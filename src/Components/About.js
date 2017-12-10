@@ -12,12 +12,12 @@ export const About = () => {
                     <p className="aboutme me">ME</p>                
                 </div>
             </Col>
-        <Col md={5} sm={12} xs={12} lg={5}>
+        <Col md={4} sm={12} xs={12} lg={4}>
                 <div>
                     <img src={perfil2} alt="" className="perfil2" responsive/>
                 </div>
             </Col>
-            <Col md={5} sm={12} xs={12} lg={5} className="pull-left">
+            <Col md={6} sm={12} xs={12} lg={6} className="pull-left">
                 <div className="description">
                     <h1 className="title text-center">Sobre mi</h1>
                     <p>Soy Front-end Developer gracias a la oportunidad que obtuve cursando estudios de programación en el bootcamp que ofrece <a target="_blank" href="http://www.laboratoria.la/"> Laboratoria</a>. En el transcurso del programa he logrado aprender HTML, CSS, JS y REACT.
