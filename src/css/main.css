@@ -1,8 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+	/*box-sizing: content-box;*/
+}
 .header {
   background-image: url('../Img/portada3.jpg');
   background-position: 100%;
   width: 100%;
-  height: 650px;
+  height: 510px;
   background-attachment: fixed;
   position: relative;
   background-repeat: no-repeat;
@@ -55,7 +60,6 @@
   font-size: 13px;
   color: #3B3B3B;
 }
-
 #about .aboutme{
   margin-left: 50px;
   font-weight: 800;
@@ -70,12 +74,14 @@
     text-transform: uppercase;
     letter-spacing: 3px; }
 #about .perfil2 {
-    width: 100%;
-    height: 510px;
+    padding-left:15%; 
+    width: 77%;
+    height: auto;
 }
 
 #about a {
-  color: #F7FF82; 
+  color: #F5FD56; 
+  font-weight: bold;
 }
 #about a:hover{
   color: #746F6F;
@@ -86,7 +92,7 @@
   letter-spacing: 3px; 
 }
 #about .description {
-  padding-right: 0%;
+  padding-right: 10%;
   padding: 5%;
   text-orientation: justify; 
 }
@@ -96,6 +102,7 @@
 } 
 .skills{
   width: 100%;
+  height: auto;
   background: #E4E4D8;
 }
 .skills .titleSkills{
@@ -115,9 +122,9 @@ ul.no-bullets {
   font-weight: 500;
  }
 
- .skills .fa-circle{
-   margin-right: 2px;
-   color: #EBF876;
+.skills .fa-circle{
+  margin-right: 2px;
+  color: #EBF876;
  }
 ul > li {
   min-height: 30px;
@@ -126,7 +133,7 @@ ul > li {
 .skills .skillsImg{
   width: 100%;
   height: auto;
-  margin-top: 15%;
+  text-align: center;
 }
 .skills .myskills{
   margin-left: 100px;
@@ -229,7 +236,6 @@ ul.no-bullets {
 .projects .portafolioMap img {
   position: relative;
   overflow: hidden;
-  margin: 6% 6%;
   min-width: 230px;
   max-width: 315px;
   max-height: 220px;
@@ -290,23 +296,24 @@ ul.no-bullets {
 .contact-icons-list li:hover .icon-font {
   color: #ffe042; 
 }
+
 .form-control {
-    display: block;
-    width: 90%;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #555;
-    background-color: #fff;
-    background-image: none;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-}
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; }
 
 
 .formContact {
@@ -315,11 +322,12 @@ ul.no-bullets {
  }
 .contact .formContact{
   margin-left: 5%;
+  width: 90%;
 } 
 .titleContact {
   padding-top: 180px;}
 
-#contact {
+.contact {
   width: 100%;
   overflow: hidden; }
 
@@ -346,7 +354,7 @@ ul.no-bullets {
   height: 80px;
   width: 80px;
   line-height: 80px;
-  background-color: #E2E1E1;
+  background-color: #F7FF82;
   transition: all .2s ease-in-out; 
 }
 .contact-icons-list li:after {
@@ -360,11 +368,11 @@ ul.no-bullets {
   left: 0;
   padding: 0;
   opacity: 0;
-  box-shadow: 0 0 0 3px #F7FF82;
+  box-shadow: 0 0 0 3px #B9A125;
   transition: all .2s ease-in-out; 
 }
 .contact-icons-list li:hover {
-  background-color: #E1FF5E; 
+  background-color: #D1C8C8; 
 }
 .contact-icons-list li:hover:after {
   opacity: 1;
@@ -372,7 +380,7 @@ ul.no-bullets {
   transition-timing-function: cubic-bezier(0.3, 0.7, 0.1, 1.6); 
 }
 .contact-icons-list li:hover .icon-font {
-  color: #B9A125; 
+  color: #E2E1E1; 
 }
 
 .icon-font {
@@ -383,6 +391,9 @@ ul.no-bullets {
   position: relative;
   z-index: 1;
   border-radius: 50%; 
+}
+.contact .form-group{
+  width: 100%;
 }
 .contact .formContact button{
   font-family: "Dosis", sans-serif;
@@ -412,7 +423,4 @@ ul.no-bullets {
   transition: all .2s ease-in-out; 
   border-radius: 1000%;
   margin-bottom: 7%;
-}
-.contact .formContact button:hover{
-  background: #E1FF5E;
 }
