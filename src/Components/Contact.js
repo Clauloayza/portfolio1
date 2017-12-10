@@ -9,11 +9,12 @@ import {
     ButtonToolbar
 } from 'react-bootstrap';
 import '../css/main.css';
+import resume from '../Archives/claucv.pdf';
 
 export const Contact = ({title}) => {
     const phone = (
         <Tooltip id="tooltip" placement="bottom" className="in" id="tooltip-bottom">
-            <strong>+51 </strong> 943572159
+            <strong>+51 </strong> 989411469
         </Tooltip>
     );
     return (
@@ -21,8 +22,9 @@ export const Contact = ({title}) => {
             <Row className="contact">
                 <div className="photoSmile"></div>
                 <Col md={12} sm={12} lg={12} xs={12}>
-                    <h1 className="titleContact text-center text-capitalize">Contactame</h1>
+                    <h1 className="titleContact text-center text-capitalize">Contáctame</h1>
                 </Col>
+                
                 <Col md={12} sm={12} xs={12} lg={12}>
                     <form className="formContact">
                         <div className="form-group">
@@ -47,7 +49,6 @@ export const Contact = ({title}) => {
                                 placeholder="Asunto"/>
                         </div>
                         <textarea className="form-control" rows="3" placeholder="Mensaje"></textarea>
-                        
                         <button type="submit" className="btnSend">Enviar</button>
                     </form>
                 </Col>
@@ -77,7 +78,7 @@ export const Contact = ({title}) => {
                                 </li>
                                 <li>
                                     <a
-                                        href="file:///C:/Users/LAB-026/Downloads/CLAUDIA%20LOAYZA%20MEDINA.pdf"
+                                        href={resume}
                                         download
                                         target="_blank"
                                         className="contact-icon">
