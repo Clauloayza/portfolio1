@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik+Mono+One");
+@import url("https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800|Varela+Round");
 * {
 	margin: 0;
 	padding: 0;
@@ -23,8 +25,8 @@
   font-size: 3em;
   padding-top: 20%;
   padding-bottom: 1%;
-  color: #F7FF82;
-  font-family: cursive;
+  color: #fff;
+  font-family:"Rubik Mono One";
   text-transform: uppercase;
 }
 
