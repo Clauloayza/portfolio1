@@ -1,10 +1,6 @@
 {
   "short_name": "React App",
   "name": "Create React App Sample",
-  "scripts": {
-    "build": "babel src -d lib",
-    "test": "jest"
-  },
   "icons": [
     {
       "src": "favicon.ico",
