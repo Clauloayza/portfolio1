@@ -88,7 +88,7 @@
 
 #about .perfil2 {
     padding-left:20%; 
-    width: 86%;
+    width: 100%;
     height: auto;
 }
 
@@ -295,7 +295,7 @@ ul.no-bullets {
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
     right: 85%;
-    content: 'view';
+    content: '';
     width: 0;
     height: 0;
     margin-left: 15%;
