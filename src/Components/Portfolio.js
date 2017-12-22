@@ -19,7 +19,7 @@ export const Portfolio = ({title}) => {
                 <Row>
                 <Col md={4} sm={12} xs={12} lg={4}>
                     <div>
-                        <p className="portfolioimages">MY<p className=" me responsive">PORTFOLIO</p></p>
+                        <p className="portfolioimages responsive">MY<p className=" me responsive">PORTFOLIO</p></p>
                               
                     </div>
                 </Col>
