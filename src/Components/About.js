@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Col, Grid, Row, Image} from 'react-bootstrap';
 import '../css/main.css';
 import perfil2 from '../Img/perfilMe.jpg';
+//config user
 
 export const About = () => {
     return (
